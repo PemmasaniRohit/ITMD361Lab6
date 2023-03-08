@@ -26,6 +26,14 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
+  transition: transform 2000ms ease;
+}
+#main-navbar ul li a :hover{
+  transform: scale(1.25);
+  background-color: lightblue;
+}
+#onpage{
+    text-decoration: underline;
 }
 #sidebar {
   position: fixed;
@@ -49,5 +57,4 @@
 #sidebar ul li a:hover{
   transform: scale(1.25);
   background-color: lightpink;
-  
 }
