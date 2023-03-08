@@ -45,5 +45,7 @@
   text-decoration: none;
 }
 #sidebar ul li a:hover{
-  background-color: #000;
+  transform: scale(1.25);
+  background-color: lightpink;
+  
 }
